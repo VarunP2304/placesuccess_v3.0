@@ -1,0 +1,24 @@
+{
+  "name": "placesuccess-server",
+  "version": "1.0.0",
+  "description": "Backend for PlaceSuccess App",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "db:setup": "node -e \"import('./config/database.js').then(db => db.setupDatabase().then(() => process.exit()))\"",
+    "db:seed": "node seed.js"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.9.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
