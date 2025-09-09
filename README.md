@@ -4,6 +4,9 @@
 
 **Place Success** is a web-based application designed to streamline placement tracking and management for students and organizations. The platform allows users to manage clients, track associated expenses, and generate reports for better decision-making and analytics. Built with modern web technologies, it emphasizes usability, scalability, and maintainability.
 
+# Demo Link
+https://drive.google.com/file/d/1XnL-QT_bclMjsQBOlygPEVMSde_cKeaX/view?usp=sharing
+
 ## Features
 
 * **Client Management:** Add, view, and edit clients easily.
